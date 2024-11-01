@@ -1,0 +1,37 @@
+
+
+
+@media (min-width: 980px) {
+  #santa.sleigh-1 {
+    width: 350px;
+    height: 120px;
+  }
+}
+
+.christmas-frame {
+  position: relative;
+  display: inline-block;
+}
+
+.christmas-frame:after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: -9%;
+  left: -6%;
+  width: 33%;
+  height: 33%;
+  background-image: url("../img/xmas-frame.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+#christmas-music {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 5;
+}
